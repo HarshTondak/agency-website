@@ -7,7 +7,7 @@ export function Process() {
     <main className="mx-6 md:mx-auto md:px-0">
       <h1 className="mx-auto flex items-center justify-center gap-x-2 text-3xl font-medium md:text-center md:text-5xl">
         Our{" "}
-        <span className="flex items-center gap-x-1 text-blue-500">
+        <span className="hidden items-center gap-x-1 text-blue-500 sm:flex">
           {" "}
           <Image
             src={"/icons/squiggle.svg"}
@@ -32,11 +32,11 @@ export function Process() {
         All of our services are designed to help your business to get noticed.
       </p>
 
-      <div className="mx-auto flex w-full flex-col items-center justify-center md:w-1/2 md:flex-row">
-        <div className="order-2 w-full md:order-1 md:w-1/2">
+      <div className="mx-auto flex w-full flex-col items-center justify-center gap-4 md:w-1/2 md:flex-row">
+        <div className="order-2 w-full md:order-1">
           <AnimatedBeamMultipleOutputDemo />
         </div>
-        <div className="order-1 w-full md:order-2 md:ml-0 md:w-1/2">
+        <div className="order-1 w-full md:order-2 md:ml-0">
           <BoxRevealDemo />
         </div>
       </div>

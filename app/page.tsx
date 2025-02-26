@@ -44,16 +44,16 @@ export default function Home() {
             minutes
           </p>
 
-          <div className="flex items-center gap-x-4 md:justify-center">
+          <div className="flex flex-wrap items-center gap-4 text-nowrap md:justify-center">
             <Link
               href="/meeting"
-              className="rounded-[6px] border-2 border-black bg-[#121212] px-8 py-2 text-white transition duration-200 hover:bg-[#abcbff] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:border-white dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] md:px-16 md:text-xl"
+              className="rounded-[6px] border-2 border-black bg-[#121212] px-6 py-2 text-white transition duration-200 hover:bg-[#abcbff] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:border-white dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] md:px-16 md:text-xl"
             >
               Book a Call
             </Link>
             <Link
               href={"/showcase"}
-              className="rounded-[6px] border-2 border-black bg-[#121212] px-8 py-2 text-white transition duration-200 hover:bg-[#abcbff] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:border-white dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] md:px-16 md:text-xl"
+              className="rounded-[6px] border-2 border-black bg-[#121212] px-6 py-2 text-white transition duration-200 hover:bg-[#abcbff] hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:border-white dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] md:px-16 md:text-xl"
             >
               Showcase
             </Link>
