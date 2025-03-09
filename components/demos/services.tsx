@@ -24,7 +24,7 @@ const services = [
     icon: "/images/content-writing.webp",
     title: "Content Writing",
     description:
-      "SocioHeads provides content writing services that help businesses create high-quality, engaging, and optimized content for their websites, blogs and social media channels.",
+      "Socioheads provides content writing services that help businesses create high-quality, engaging, and optimized content for their websites, blogs and social media channels.",
   },
   {
     icon: "/images/gmb.webp",
@@ -36,7 +36,7 @@ const services = [
     icon: "/images/photo.webp",
     title: "Photography",
     description:
-      "SocioHeads offers professional photography services that enable businesses to showcase their products, services, and brand in a visually appealing and engaging manner.",
+      "Socioheads offers professional photography services that enable businesses to showcase their products, services, and brand in a visually appealing and engaging manner.",
   },
 ];
 

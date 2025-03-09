@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-10 flex gap-x-4 md:justify-center">
-        © 2022 SocioHeads. All Rights Reserved.
+        © 2022 Socioheads. All Rights Reserved.
       </div>
     </footer>
   );
