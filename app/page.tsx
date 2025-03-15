@@ -19,20 +19,22 @@ import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
 import { AnimatedShinyTextDemo } from "@/components/demos/animated-shiny-text-demo";
 import { Guarantee } from "@/components/demos/guarantee";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="inset-0 -z-10 h-full w-full overflow-clip bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] px-5">
+      <Link href="https://wa.me/8595840297" target="_blank">
+        <Image
+          src={"/images/whatsapp.png"}
+          alt="whatsapp-icon"
+          width={50}
+          height={50}
+          className="fixed bottom-10 right-5 z-50 animate-bounce"
+        />
+      </Link>
       <Header />
       <main className="md:pb-10">
-        {/* <Image
-          src={"/images/banner2.jpg"}
-          alt=""
-          width={1000}
-          height={1000}
-          className="mb-10 w-full bg-cover bg-center object-cover"
-        /> */}
         <div className="mx-6 mt-14 md:mx-auto md:px-0 xl:w-4/5 2xl:w-[68%]">
           <AnimatedShinyTextDemo />
 

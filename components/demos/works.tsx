@@ -10,11 +10,12 @@ const Works = () => {
       url: "/images/work/work1.jpg",
       title: "Image 1",
     },
-    {
-      id: 2,
-      url: "/images/work/work2.jpg",
-      title: "Image 2",
-    },
+    // {
+    //   id: 2,
+    //   url: "/images/work/vdo1.mov",
+    //   title: "Image 2",
+    //   type: "video",
+    // },
     {
       id: 3,
       url: "/images/work/work3.jpg",
@@ -102,6 +103,11 @@ const Works = () => {
               key={image.id}
               className="group relative h-[350px] w-[350px] overflow-hidden bg-neutral-200 md:h-[480px] md:w-[480px]"
             >
+              {/* {image?.type ? (
+                <video autoPlay loop>
+                  <source src={image?.url} />
+                </video>
+              ) : ( */}
               <Image
                 src={image?.url}
                 alt={image?.title}
@@ -109,6 +115,7 @@ const Works = () => {
                 height={1000}
                 className="absolute inset-0 z-0 bg-cover bg-center object-cover transition-transform duration-300 group-hover:scale-110"
               />
+              {/* )} */}
             </div>
           ))}
         </motion.div>
