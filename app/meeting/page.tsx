@@ -5,6 +5,8 @@ import { PiCheckCircle } from "react-icons/pi";
 import { motion } from "framer-motion";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Link from "next/link";
+import Image from "next/image";
 
 const checkItemVariants = {
   hidden: { opacity: 0, x: -50 },
@@ -14,6 +16,15 @@ const checkItemVariants = {
 const Meeting = () => {
   return (
     <div className="inset-0 -z-10 h-full w-full overflow-clip bg-[#fafafa] bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] px-5">
+      <Link href="https://wa.me/918595840297" target="_blank">
+        <Image
+          src={"/images/whatsapp.png"}
+          alt="whatsapp-icon"
+          width={50}
+          height={50}
+          className="fixed bottom-10 right-5 z-50 animate-bounce"
+        />
+      </Link>
       <Header />
       <div className="mx-auto mb-16 justify-between px-6 md:mt-14 md:flex md:px-0 xl:w-4/5 2xl:w-[68%]">
         <div className="md:w-2/5">
