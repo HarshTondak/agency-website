@@ -21,7 +21,7 @@ const Footer = () => {
               alt="image"
             />{" "}
           </h1>
-          <Link href="https://wa.me/8595840297">
+          <Link href="https://wa.me/918595840297">
             <p className="text-left">+91 8595840297</p>
           </Link>
           <p className="text-left">info@socioheads.com</p>
